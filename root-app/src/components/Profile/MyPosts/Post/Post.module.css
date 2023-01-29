@@ -1,0 +1,35 @@
+.item {
+  color: #008000;
+}
+.item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.item .likes{
+  display: grid;
+  place-items: center;
+  color: black;
+}
+
+.item .likeWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.item .buttonLikes {
+  color: black;
+  display: grid;
+  width: 60px;
+  height: 25px;
+  border: 1px solid red;
+  border-radius: 1rem;
+  place-items: center;
+  background: rgba(252, 47, 249, 0.84);
+}
+
+.item .buttonLikes:hover  {
+  background: rgba(68, 182, 124, 0.61);
+}
